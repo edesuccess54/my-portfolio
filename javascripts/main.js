@@ -5,6 +5,7 @@ const toggleNav = document.querySelector('.toggle-nav');
 const closeNav = document.querySelector('#close');
 
 function openCloseNav() {
+    openNav.classList.toggle('active');
     toggleNav.classList.toggle('toggle-active');
     toggleoverlay.classList.toggle('toggleoverlay-active');
 }
